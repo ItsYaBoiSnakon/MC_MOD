@@ -10,15 +10,6 @@
       "path": "~/OresAndBars"
     },
     {
-      "name": "TungstenBarRecipe",
-      "type": "recipe",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tungsten_bar_recipe",
-      "path": "~/Tungsten"
-    },
-    {
       "name": "TungstenBar",
       "type": "item",
       "sortid": 4,
