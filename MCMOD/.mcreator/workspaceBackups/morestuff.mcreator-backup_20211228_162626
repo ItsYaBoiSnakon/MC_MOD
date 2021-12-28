@@ -1,20 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "Silver",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "silver"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.morestuff.silver": "Silver"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
