@@ -13,15 +13,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.morestuff.init.MorestuffModItems;
-
 import java.util.List;
 import java.util.Collections;
 
-public class OrichalcumOreBlock extends Block {
-	public OrichalcumOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f, 5f).requiresCorrectToolForDrops());
-		setRegistryName("orichalcum_ore");
+public class OrichalcumoreBlock extends Block {
+	public OrichalcumoreBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHERRACK).strength(3f, 10f).requiresCorrectToolForDrops());
+		setRegistryName("orichalcumore");
 	}
 
 	@Override
@@ -41,6 +39,6 @@ public class OrichalcumOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(MorestuffModItems.ORICHALCUM_INGOT));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

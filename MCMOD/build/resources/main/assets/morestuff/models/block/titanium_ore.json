@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "morestuff:blocks/titanium",
+    "up": "morestuff:blocks/titanium",
+    "north": "morestuff:blocks/titanium",
+    "east": "morestuff:blocks/titanium",
+    "south": "morestuff:blocks/titanium",
+    "west": "morestuff:blocks/titanium",
+    "particle": "morestuff:blocks/titanium"
+  }
+}

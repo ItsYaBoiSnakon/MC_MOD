@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "necrodermis",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Necrodermis"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Necrodermis"
+      },
+      {
+        "value": "CUSTOM:Necrodermis"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Necrodermis"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NecrodermisArmor.boots"
+    },
+    "name": "necrodermisboots",
+    "namespace": "mod"
+  }
+}

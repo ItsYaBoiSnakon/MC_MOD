@@ -1,0 +1,30 @@
+{
+  "group": "necrodermis",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "morestuff:necrodermis"
+    },
+    "1": {
+      "item": "morestuff:necrodermis"
+    },
+    "2": {
+      "item": "morestuff:necrodermis"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "morestuff:necrodermis_pickaxe",
+    "count": 1
+  }
+}

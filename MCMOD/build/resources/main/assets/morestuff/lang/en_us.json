@@ -1,5 +1,19 @@
 {
+  "block.morestuff.necrodermis_ore": "Necrodermis Ore",
+  "item.morestuff.necrodermis_armor_helmet": "Necrodermis Armor Helmet",
+  "item.morestuff.necrodermis": "Necrodermis",
+  "item.morestuff.necrodermis_axe": "Necrodermis Axe",
+  "item.morestuff.orichalcum": "Orichalcum",
+  "item.morestuff.necrodermis_armor_chestplate": "Necrodermis Armor Body",
+  "item.morestuff.necrodermis_shovel": "Necrodermis Shovel",
+  "item.morestuff.necrodermis_sword": "Necrodermis Sword",
   "item.morestuff.tungsten_bar": "Tungsten Bar",
-  "item.morestuff.silver": "Silver",
+  "block.morestuff.orichalcumore": "Orichalcumore",
+  "item.morestuff.titanium": "Titanium",
+  "item.morestuff.necrodermis_armor_leggings": "Necrodermis Armor Leggings",
+  "item.morestuff.necrodermis_pickaxe": "Necrodermis Pickaxe",
+  "item.morestuff.necrodermis_armor_boots": "Necrodermis Armor Boots",
+  "item.morestuff.necrodermis_hoe": "Necrodermis Hoe",
+  "block.morestuff.titaniumore": "Titaniumore",
   "block.morestuff.tungsten_ore": "Tungsten Ore"
 }

@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class TungstenOreBlock extends Block {
 	public TungstenOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(4f, 3f).requiresCorrectToolForDrops());
 		setRegistryName("tungsten_ore");
 	}
 

@@ -7,9 +7,9 @@
     "textureLeft": "necrodermis_ore",
     "textureFront": "necrodermis_ore",
     "textureRight": "necrodermis_ore",
-    "textureBack": "",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "textureBack": "necrodermis_ore",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -34,8 +34,8 @@
     ],
     "name": "Necrodermis Ore",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 5.0,
+    "hardness": 5.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "NETHER_ORE"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -122,17 +122,21 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "Nether"
     ],
-    "restrictionBiomes": [],
-    "blocksToReplace": [
+    "restrictionBiomes": [
       {
-        "value": "Blocks.STONE"
+        "value": "soul_sand_valley"
       }
     ],
-    "frequencyPerChunks": 11,
-    "frequencyOnChunk": 7,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 63
+    "blocksToReplace": [
+      {
+        "value": "Blocks.NETHERRACK"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 4,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 126
   }
 }

@@ -32,16 +32,16 @@
         "subtract": false
       }
     ],
-    "name": "Titanium Ore",
+    "name": "Titaniumore",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 3.5,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },

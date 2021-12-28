@@ -34,7 +34,7 @@
     ],
     "name": "Tungsten Ore",
     "specialInfo": [],
-    "hardness": 3.0,
+    "hardness": 4.0,
     "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,

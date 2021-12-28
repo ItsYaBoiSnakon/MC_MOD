@@ -14,7 +14,15 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.morestuff.item.TungstenBarItem;
-import net.mcreator.morestuff.item.SilverItem;
+import net.mcreator.morestuff.item.TitaniumItem;
+import net.mcreator.morestuff.item.OrichalcumItem;
+import net.mcreator.morestuff.item.NecrodermisSwordItem;
+import net.mcreator.morestuff.item.NecrodermisShovelItem;
+import net.mcreator.morestuff.item.NecrodermisPickaxeItem;
+import net.mcreator.morestuff.item.NecrodermisItem;
+import net.mcreator.morestuff.item.NecrodermisHoeItem;
+import net.mcreator.morestuff.item.NecrodermisAxeItem;
+import net.mcreator.morestuff.item.NecrodermisArmorItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -22,9 +30,23 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MorestuffModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
-	public static final Item SILVER = register(new SilverItem());
 	public static final Item TUNGSTEN_ORE = register(MorestuffModBlocks.TUNGSTEN_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item TUNGSTEN_BAR = register(new TungstenBarItem());
+	public static final Item ORICHALCUMORE = register(MorestuffModBlocks.ORICHALCUMORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item TITANIUM = register(new TitaniumItem());
+	public static final Item TITANIUMORE = register(MorestuffModBlocks.TITANIUMORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item ORICHALCUM = register(new OrichalcumItem());
+	public static final Item NECRODERMIS = register(new NecrodermisItem());
+	public static final Item NECRODERMIS_PICKAXE = register(new NecrodermisPickaxeItem());
+	public static final Item NECRODERMIS_ARMOR_HELMET = register(new NecrodermisArmorItem.Helmet());
+	public static final Item NECRODERMIS_ARMOR_CHESTPLATE = register(new NecrodermisArmorItem.Chestplate());
+	public static final Item NECRODERMIS_ARMOR_LEGGINGS = register(new NecrodermisArmorItem.Leggings());
+	public static final Item NECRODERMIS_ARMOR_BOOTS = register(new NecrodermisArmorItem.Boots());
+	public static final Item NECRODERMIS_SWORD = register(new NecrodermisSwordItem());
+	public static final Item NECRODERMIS_SHOVEL = register(new NecrodermisShovelItem());
+	public static final Item NECRODERMIS_HOE = register(new NecrodermisHoeItem());
+	public static final Item NECRODERMIS_AXE = register(new NecrodermisAxeItem());
+	public static final Item NECRODERMIS_ORE = register(MorestuffModBlocks.NECRODERMIS_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

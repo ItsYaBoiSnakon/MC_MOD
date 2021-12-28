@@ -11,7 +11,9 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.morestuff.block.TungstenOreBlock;
-import net.mcreator.morestuff.block.TitaniumOreBlock;
+import net.mcreator.morestuff.block.TitaniumoreBlock;
+import net.mcreator.morestuff.block.OrichalcumoreBlock;
+import net.mcreator.morestuff.block.NecrodermisOreBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -20,7 +22,9 @@ import java.util.ArrayList;
 public class MorestuffModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block TUNGSTEN_ORE = register(new TungstenOreBlock());
-	public static final Block TITANIUM_ORE = register(new TitaniumOreBlock());
+	public static final Block ORICHALCUMORE = register(new OrichalcumoreBlock());
+	public static final Block TITANIUMORE = register(new TitaniumoreBlock());
+	public static final Block NECRODERMIS_ORE = register(new NecrodermisOreBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

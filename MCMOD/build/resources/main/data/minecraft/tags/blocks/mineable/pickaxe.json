@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "morestuff:tungsten_ore"
+    "morestuff:tungsten_ore",
+    "morestuff:orichalcumore",
+    "morestuff:titaniumore",
+    "morestuff:necrodermis_ore"
   ]
 }

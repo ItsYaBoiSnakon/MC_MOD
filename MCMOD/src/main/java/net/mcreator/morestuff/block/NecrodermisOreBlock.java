@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class NecrodermisOreBlock extends Block {
 	public NecrodermisOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f, 5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.NETHER_ORE).strength(5f, 10f).requiresCorrectToolForDrops());
 		setRegistryName("necrodermis_ore");
 	}
 
@@ -32,7 +32,7 @@ public class NecrodermisOreBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 2;
+			return tieredItem.getTier().getLevel() >= 3;
 		return false;
 	}
 

@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "necrodermis",
-    "helmetName": "Necrodermis Helmet",
-    "bodyName": "Necrodermis Chestplate",
-    "leggingsName": "Necrodermis Leggings",
-    "bootsName": "Necrodermis Boots",
+    "helmetName": "Necrodermis Armor Helmet",
+    "bodyName": "Necrodermis Armor Body",
+    "leggingsName": "Necrodermis Armor Leggings",
+    "bootsName": "Necrodermis Armor Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -42,10 +42,10 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 15,
+    "maxDamage": 25,
     "damageValueHelmet": 2,
-    "damageValueBody": 5,
-    "damageValueLeggings": 6,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
     "damageValueBoots": 2,
     "enchantability": 9,
     "toughness": 0.0,
@@ -53,10 +53,6 @@
     "equipSound": {
       "value": ""
     },
-    "repairItems": [
-      {
-        "value": "CUSTOM:Necrodermis"
-      }
-    ]
+    "repairItems": []
   }
 }

@@ -27,9 +27,9 @@ public class NecrodermisOreFeature extends OreFeature {
 	public static final NecrodermisOreFeature FEATURE = (NecrodermisOreFeature) new NecrodermisOreFeature()
 			.setRegistryName("morestuff:necrodermis_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(NecrodermisOreFeatureRuleTest.INSTANCE, MorestuffModBlocks.NECRODERMIS_ORE.defaultBlockState(), 7))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(63)))).squared().count(11);
-	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
+			.configured(new OreConfiguration(NecrodermisOreFeatureRuleTest.INSTANCE, MorestuffModBlocks.NECRODERMIS_ORE.defaultBlockState(), 4))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(0), VerticalAnchor.absolute(126)))).squared().count(10);
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("soul_sand_valley"));
 
 	public NecrodermisOreFeature() {
 		super(OreConfiguration.CODEC);
@@ -39,7 +39,7 @@ public class NecrodermisOreFeature extends OreFeature {
 		WorldGenLevel world = context.level();
 		ResourceKey<Level> dimensionType = world.getLevel().dimension();
 		boolean dimensionCriteria = false;
-		if (dimensionType == Level.OVERWORLD)
+		if (dimensionType == Level.NETHER)
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return false;
@@ -54,7 +54,7 @@ public class NecrodermisOreFeature extends OreFeature {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.STONE)
+			if (blockAt.getBlock() == Blocks.NETHERRACK)
 				blockCriteria = true;
 			return blockCriteria;
 		}
