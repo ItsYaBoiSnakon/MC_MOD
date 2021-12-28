@@ -7,7 +7,7 @@
     "textureLeft": "necrodermis_ore",
     "textureFront": "necrodermis_ore",
     "textureRight": "necrodermis_ore",
-    "textureBack": "",
+    "textureBack": "necrodermis_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,

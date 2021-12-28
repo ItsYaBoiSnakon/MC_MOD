@@ -7,7 +7,7 @@
     "textureLeft": "orichalcum_ore",
     "textureFront": "orichalcum_ore",
     "textureRight": "orichalcum_ore",
-    "textureBack": "",
+    "textureBack": "orichalcum_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
