@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "morestuff:blocks/necrodermis_block",
+    "up": "morestuff:blocks/necrodermis_block",
+    "north": "morestuff:blocks/necrodermis_block",
+    "east": "morestuff:blocks/necrodermis_block",
+    "south": "morestuff:blocks/necrodermis_block",
+    "west": "morestuff:blocks/necrodermis_block",
+    "particle": "morestuff:blocks/necrodermis_block"
+  }
+}

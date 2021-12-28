@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "morestuff:blocks/orichalcum_block",
+    "up": "morestuff:blocks/orichalcum_block",
+    "north": "morestuff:blocks/orichalcum_block",
+    "east": "morestuff:blocks/orichalcum_block",
+    "south": "morestuff:blocks/orichalcum_block",
+    "west": "morestuff:blocks/orichalcum_block",
+    "particle": "morestuff:blocks/orichalcum_block"
+  }
+}

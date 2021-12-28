@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morestuff:orichalcum_block"
+    }
+  ],
+  "result": {
+    "item": "morestuff:orichalcum_ingot",
+    "count": 9
+  }
+}

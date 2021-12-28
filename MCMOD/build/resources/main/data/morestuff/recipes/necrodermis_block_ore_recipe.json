@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morestuff:necrodermis_block"
+    }
+  ],
+  "result": {
+    "item": "morestuff:necrodermis",
+    "count": 9
+  }
+}

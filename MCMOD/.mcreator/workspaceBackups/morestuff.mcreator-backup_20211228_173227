@@ -1,9 +1,29 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore"
+    },
+    {
+      "name": "TungstenIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.morestuff.tungsten_ingot": "Tungsten Ingot",
+      "block.morestuff.tungsten_ore": "Tungsten Ore"
+    }
   },
   "foldersRoot": {
     "name": "~",
