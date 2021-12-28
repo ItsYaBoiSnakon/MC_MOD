@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "morestuff:necrodermis"
+    },
+    "1": {
+      "item": "morestuff:necrodermis"
+    },
+    "2": {
+      "item": "morestuff:necrodermis"
+    },
+    "3": {
+      "item": "morestuff:necrodermis"
+    },
+    "4": {
+      "item": "morestuff:necrodermis"
+    },
+    "5": {
+      "item": "morestuff:necrodermis"
+    },
+    "6": {
+      "item": "morestuff:necrodermis"
+    },
+    "7": {
+      "item": "morestuff:necrodermis"
+    },
+    "8": {
+      "item": "morestuff:necrodermis"
+    }
+  },
+  "result": {
+    "item": "morestuff:necrodermis_block",
+    "count": 1
+  }
+}

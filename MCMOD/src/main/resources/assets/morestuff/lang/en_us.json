@@ -1,5 +1,23 @@
 {
+<<<<<<< Updated upstream
   "item.morestuff.tungsten_ingot": "Tungsten Ingot",
   "item.morestuff.pencil": "Pencil",
   "block.morestuff.tungsten_ore": "Tungsten Ore"
+=======
+  "block.morestuff.orichalcum_block": "Block of Orichalcum",
+  "item.morestuff.orichalcum_ingot": "Orichalcum",
+  "block.morestuff.orichalcum_ore": "Orichalcum Ore",
+  "block.morestuff.necrodermis_ore": "Necrodermis Ore",
+  "item.morestuff.necrodermis_armor_helmet": "Necrodermis Helmet",
+  "item.morestuff.necrodermis_axe": "Necrodermis Axe",
+  "item.morestuff.necrodermis": "Necrodermis",
+  "block.morestuff.necrodermis_block": "Block of Necrodermis",
+  "item.morestuff.necrodermis_armor_chestplate": "Necrodermis Chestplate",
+  "item.morestuff.necrodermis_shovel": "Necrodermis Shovel",
+  "item.morestuff.necrodermis_sword": "Necrodermis Sword",
+  "item.morestuff.necrodermis_armor_leggings": "Necrodermis Leggings",
+  "item.morestuff.necrodermis_pickaxe": "Necrodermis Pickaxe",
+  "item.morestuff.necrodermis_armor_boots": "Necrodermis Boots",
+  "item.morestuff.necrodermis_hoe": "Necrodermis Hoe"
+>>>>>>> Stashed changes
 }
