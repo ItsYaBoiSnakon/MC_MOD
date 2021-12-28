@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.morestuff.item.TungstenBarItem;
 import net.mcreator.morestuff.item.SilverItem;
 
 import java.util.List;
@@ -23,6 +24,7 @@ public class MorestuffModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item SILVER = register(new SilverItem());
 	public static final Item TUNGSTEN_ORE = register(MorestuffModBlocks.TUNGSTEN_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item TUNGSTEN_BAR = register(new TungstenBarItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
