@@ -8,9 +8,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
-
-import net.mcreator.morestuff.item.SilverItem;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -18,11 +19,15 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MorestuffModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
-	public static final Item SILVER = register(new SilverItem());
+	public static final Item TUNGSTEN_ORE = register(MorestuffModBlocks.TUNGSTEN_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
 		return item;
+	}
+
+	private static Item register(Block block, CreativeModeTab tab) {
+		return register(new BlockItem(block, new Item.Properties().tab(tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@SubscribeEvent

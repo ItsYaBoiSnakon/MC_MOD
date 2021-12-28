@@ -1,19 +1,19 @@
 {
   "mod_elements": [
     {
-      "name": "TungstenOre",
-      "type": "block",
+      "name": "Silver",
+      "type": "item",
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tungsten_ore"
+      "registry_name": "silver"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.morestuff.tungsten_ore": "Tungsten Ore"
+      "item.morestuff.silver": "Silver"
     }
   },
   "foldersRoot": {
