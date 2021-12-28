@@ -1,9 +1,45 @@
 {
+<<<<<<< Updated upstream
   "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {}
+=======
+  "mod_elements": [
+    {
+      "name": "Silver",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver"
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore"
+    },
+    {
+      "name": "TungstenBarRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_bar_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.morestuff.silver": "Silver",
+      "block.morestuff.tungsten_ore": "Tungsten Ore"
+    }
+>>>>>>> Stashed changes
   },
   "foldersRoot": {
     "name": "~",
