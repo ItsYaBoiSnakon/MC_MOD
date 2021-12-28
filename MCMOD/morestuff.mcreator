@@ -1,11 +1,4 @@
 {
-<<<<<<< Updated upstream
-  "mod_elements": [],
-  "variable_elements": [],
-  "sound_elements": [],
-  "language_map": {
-    "en_us": {}
-=======
   "mod_elements": [
     {
       "name": "Silver",
@@ -30,16 +23,24 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_bar_recipe"
+    },
+    {
+      "name": "TungstenBar",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_bar"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.morestuff.tungsten_bar": "Tungsten Bar",
       "item.morestuff.silver": "Silver",
       "block.morestuff.tungsten_ore": "Tungsten Ore"
     }
->>>>>>> Stashed changes
   },
   "foldersRoot": {
     "name": "~",
