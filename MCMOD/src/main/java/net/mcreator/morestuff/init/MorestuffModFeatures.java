@@ -16,6 +16,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
+<<<<<<< HEAD
+=======
+import net.mcreator.morestuff.world.features.ores.OrichalcumOreFeature;
+>>>>>>> Drawing
 import net.mcreator.morestuff.world.features.ores.NecrodermisOreFeature;
 
 import java.util.Set;
@@ -26,6 +30,11 @@ import java.util.HashMap;
 public class MorestuffModFeatures {
 	private static final Map<Feature<?>, FeatureRegistration> REGISTRY = new HashMap<>();
 	static {
+<<<<<<< HEAD
+=======
+		REGISTRY.put(OrichalcumOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				OrichalcumOreFeature.GENERATE_BIOMES, OrichalcumOreFeature.CONFIGURED_FEATURE));
+>>>>>>> Drawing
 		REGISTRY.put(NecrodermisOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				NecrodermisOreFeature.GENERATE_BIOMES, NecrodermisOreFeature.CONFIGURED_FEATURE));
 	}

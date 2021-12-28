@@ -8,8 +8,13 @@
     "textureFront": "necrodermis_ore",
     "textureRight": "necrodermis_ore",
     "textureBack": "necrodermis_ore",
+<<<<<<< HEAD
     "renderType": 11,
     "customModelName": "Single texture",
+=======
+    "renderType": 10,
+    "customModelName": "Normal",
+>>>>>>> Drawing
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
