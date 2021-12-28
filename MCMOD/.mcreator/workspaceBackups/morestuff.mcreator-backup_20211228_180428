@@ -15,6 +15,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_ingot"
+    },
+    {
+      "name": "Pencil",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pencil"
+    },
+    {
+      "name": "TitaniumOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ore"
     }
   ],
   "variable_elements": [],
@@ -22,6 +38,8 @@
   "language_map": {
     "en_us": {
       "item.morestuff.tungsten_ingot": "Tungsten Ingot",
+      "item.morestuff.pencil": "Pencil",
+      "block.morestuff.titanium_ore": "Titanium Ore",
       "block.morestuff.tungsten_ore": "Tungsten Ore"
     }
   },
