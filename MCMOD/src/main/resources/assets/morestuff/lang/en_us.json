@@ -1,3 +1,5 @@
 {
-  "item.morestuff.silver": "Silver"
+  "block.morestuff.orichalcum_block": "Block of Orichalcum",
+  "item.morestuff.orichalcum_ingot": "Orichalcum",
+  "block.morestuff.orichalcum_ore": "Orichalcum Ore"
 }
