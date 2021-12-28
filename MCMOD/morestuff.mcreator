@@ -1,314 +1,276 @@
 {
   "mod_elements": [
     {
-      "name": "OrichalcumIngot",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_ingot"
-    },
-    {
-      "name": "OrichalcumOre",
+      "name": "TungstenOre",
       "type": "block",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_ore"
-    },
-    {
-      "name": "OrichalcumBlock",
-      "type": "block",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_block"
-    },
-    {
-      "name": "OrichalcumOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_ore_block_recipe"
-    },
-    {
-      "name": "OrichalcumBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_block_ore_recipe"
-    },
-    {
-      "name": "OrichalcumOreSmelting",
-      "type": "recipe",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_ore_smelting"
-    },
-    {
-      "name": "Necrodermis",
-      "type": "item",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis"
-    },
-    {
-      "name": "NecrodermisOre",
-      "type": "block",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_ore"
-    },
-    {
-      "name": "NecrodermisBlock",
-      "type": "block",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_block"
-    },
-    {
-      "name": "NecrodermisOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_ore_block_recipe"
-    },
-    {
-      "name": "NecrodermisBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_block_ore_recipe"
-    },
-    {
-      "name": "NecrodermisOreSmelting",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_ore_smelting"
-    },
-    {
-      "name": "NecrodermisPickaxe",
-      "type": "tool",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_pickaxe"
-    },
-    {
-      "name": "NecrodermisAxe",
-      "type": "tool",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_axe"
-    },
-    {
-      "name": "NecrodermisSword",
-      "type": "tool",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_sword"
-    },
-    {
-      "name": "NecrodermisShovel",
-      "type": "tool",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_shovel"
-    },
-    {
-      "name": "NecrodermisHoe",
-      "type": "tool",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_hoe"
-    },
-    {
-      "name": "NecrodermisPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_pickaxe_recipe"
-    },
-    {
-      "name": "NecrodermisAxeRecipe",
-      "type": "recipe",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_axe_recipe"
-    },
-    {
-      "name": "NecrodermisSwordRecipe",
-      "type": "recipe",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_sword_recipe"
-    },
-    {
-      "name": "NecrodermisShovelRecipe",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_shovel_recipe"
-    },
-    {
-      "name": "NecrodermisHoeRecipe",
-      "type": "recipe",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_hoe_recipe"
-    },
-    {
-      "name": "NecrodermisArmor",
-      "type": "armor",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "NecrodermisArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_armor_helmet_recipe"
-    },
-    {
-      "name": "NecrodermisArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_armor_body_recipe"
-    },
-    {
-      "name": "NecrodermisArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "necrodermis_armor_leggings_recipe"
-    },
-    {
-      "name": "NecrodermisArmorBootsRecipe",
-      "type": "recipe",
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "necrodermis_armor_boots_recipe"
+      "registry_name": "tungsten_ore"
     },
     {
-      "name": "OrichalcumPickaxe",
+      "name": "TungstenIngot",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot"
+    },
+    {
+      "name": "Pencil",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pencil"
+    },
+    {
+      "name": "TitaniumOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ore"
+    },
+    {
+      "name": "TungstenSword",
       "type": "tool",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_pickaxe"
-    },
-    {
-      "name": "OrichalcumAxe",
-      "type": "tool",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_axe"
-    },
-    {
-      "name": "OrichalcumSword",
-      "type": "tool",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_sword"
-    },
-    {
-      "name": "OrichalcumShovel",
-      "type": "tool",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_shovel"
-    },
-    {
-      "name": "OrichalcumHoe",
-      "type": "tool",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_hoe"
-    },
-    {
-      "name": "OrichalcumPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orichalcum_pickaxe_recipe"
-    },
-    {
-      "name": "OrichalcumAxeRecipe",
-      "type": "recipe",
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_axe_recipe"
+      "registry_name": "tungsten_sword"
     },
     {
-      "name": "OrichalcumSwordRecipe",
-      "type": "recipe",
+      "name": "TungstenShovel",
+      "type": "tool",
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_sword_recipe"
+      "registry_name": "tungsten_shovel"
     },
     {
-      "name": "OrichalcumShovelRecipe",
-      "type": "recipe",
+      "name": "TungstenHoe",
+      "type": "tool",
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_shovel_recipe"
+      "registry_name": "tungsten_hoe"
     },
     {
-      "name": "OrichalcumHoeRecipe",
+      "name": "TungstenPickaxeRecipe",
       "type": "recipe",
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_hoe_recipe"
+      "registry_name": "tungsten_pickaxe_recipe"
     },
     {
-      "name": "OrichalcumArmor",
-      "type": "armor",
+      "name": "TungstenAxeRecipe",
+      "type": "recipe",
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_armor",
+      "registry_name": "tungsten_axe_recipe"
+    },
+    {
+      "name": "TungstenSwordRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_sword_recipe"
+    },
+    {
+      "name": "TungstenShovelRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_shovel_recipe"
+    },
+    {
+      "name": "TungstenHoeRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_hoe_recipe"
+    },
+    {
+      "name": "TungstenArmor",
+      "type": "armor",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor"
+    },
+    {
+      "name": "TungstenArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_helmet_recipe"
+    },
+    {
+      "name": "TungstenArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_body_recipe"
+    },
+    {
+      "name": "TungstenArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_leggings_recipe"
+    },
+    {
+      "name": "TungstenArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_boots_recipe"
+    },
+    {
+      "name": "CobaltIngot",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ingot"
+    },
+    {
+      "name": "CobaltOre",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore"
+    },
+    {
+      "name": "CobaltBlock",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_block"
+    },
+    {
+      "name": "CobaltOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore_block_recipe"
+    },
+    {
+      "name": "CobaltBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_block_ore_recipe"
+    },
+    {
+      "name": "CobaltOreSmelting",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore_smelting"
+    },
+    {
+      "name": "CobaltPickaxe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe"
+    },
+    {
+      "name": "CobaltAxe",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe"
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword"
+    },
+    {
+      "name": "CobaltShovel",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel"
+    },
+    {
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe"
+    },
+    {
+      "name": "CobaltPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe_recipe"
+    },
+    {
+      "name": "CobaltAxeRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe_recipe"
+    },
+    {
+      "name": "CobaltSwordRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword_recipe"
+    },
+    {
+      "name": "CobaltShovelRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel_recipe"
+    },
+    {
+      "name": "CobaltHoeRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe_recipe"
+    },
+    {
+      "name": "CobaltArmor",
+      "type": "armor",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor",
       "metadata": {
         "eh": true,
         "el": true,
@@ -317,66 +279,65 @@
       }
     },
     {
-      "name": "OrichalcumArmorHelmetRecipe",
+      "name": "CobaltArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_armor_helmet_recipe"
+      "registry_name": "cobalt_armor_helmet_recipe"
     },
     {
-      "name": "OrichalcumArmorBodyRecipe",
+      "name": "CobaltArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_armor_body_recipe"
+      "registry_name": "cobalt_armor_body_recipe"
     },
     {
-      "name": "OrichalcumArmorLeggingsRecipe",
+      "name": "CobaltArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_armor_leggings_recipe"
+      "registry_name": "cobalt_armor_leggings_recipe"
     },
     {
-      "name": "OrichalcumArmorBootsRecipe",
+      "name": "CobaltArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_armor_boots_recipe"
+      "registry_name": "cobalt_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.morestuff.necrodermis_ore": "Necrodermis Ore",
-      "item.morestuff.orichalcum_ingot": "Orichalcum",
-      "item.morestuff.orichalcum_armor_leggings": "Orichalcum Leggings",
-      "item.morestuff.necrodermis_armor_helmet": "Necrodermis Helmet",
-      "item.morestuff.necrodermis_axe": "Necrodermis Axe",
-      "item.morestuff.necrodermis": "Necrodermis",
-      "item.morestuff.necrodermis_armor_chestplate": "Necrodermis Chestplate",
-      "item.morestuff.orichalcum_shovel": "Orichalcum Shovel",
-      "item.morestuff.orichalcum_armor_chestplate": "Orichalcum Chestplate",
-      "item.morestuff.necrodermis_pickaxe": "Necrodermis Pickaxe",
-      "item.morestuff.necrodermis_hoe": "Necrodermis Hoe",
-      "item.morestuff.orichalcum_armor_helmet": "Orichalcum Helmet",
-      "block.morestuff.orichalcum_block": "Block of Orichalcum",
-      "item.morestuff.orichalcum_axe": "Orichalcum Axe",
-      "block.morestuff.orichalcum_ore": "Orichalcum Ore",
-      "block.morestuff.necrodermis_block": "Block of Necrodermis",
-      "item.morestuff.orichalcum_armor_boots": "Orichalcum Boots",
-      "item.morestuff.necrodermis_shovel": "Necrodermis Shovel",
-      "item.morestuff.orichalcum_sword": "Orichalcum Sword",
-      "item.morestuff.necrodermis_sword": "Necrodermis Sword",
-      "item.morestuff.orichalcum_hoe": "Orichalcum Hoe",
-      "item.morestuff.necrodermis_armor_leggings": "Necrodermis Leggings",
-      "item.morestuff.necrodermis_armor_boots": "Necrodermis Boots",
-      "item.morestuff.orichalcum_pickaxe": "Orichalcum Pickaxe"
+      "item.morestuff.cobalt_axe": "Cobalt Axe",
+      "item.morestuff.tungsten_armor_helmet": "Tungsten Helmet",
+      "item.morestuff.pencil": "Pencil",
+      "item.morestuff.tungsten_armor_chestplate": "Tungsten Chestplate",
+      "block.morestuff.titanium_ore": "Titanium Ore",
+      "item.morestuff.cobalt_armor_chestplate": "Cobalt Chestplate",
+      "item.morestuff.cobalt_pickaxe": "Cobalt Pickaxe",
+      "item.morestuff.cobalt_sword": "Cobalt Sword",
+      "block.morestuff.cobalt_ore": "Cobalt Ore",
+      "item.morestuff.cobalt_armor_helmet": "Cobalt Helmet",
+      "item.morestuff.cobalt_hoe": "Cobalt Hoe",
+      "item.morestuff.tungsten_ingot": "Tungsten",
+      "item.morestuff.cobalt_armor_leggings": "Cobalt Leggings",
+      "item.morestuff.tungsten_shovel": "Tungsten Shovel",
+      "item.morestuff.tungsten_sword": "Tungsten Sword",
+      "item.morestuff.tungsten_armor_boots": "Tungsten Boots",
+      "item.morestuff.cobalt_armor_boots": "Cobalt Boots",
+      "item.morestuff.tungsten_armor_leggings": "Tungsten Leggings",
+      "item.morestuff.cobalt_shovel": "Cobalt Shovel",
+      "block.morestuff.cobalt_block": "Block of Cobalt",
+      "block.morestuff.tungsten_ore": "Tungsten Ore",
+      "item.morestuff.tungsten_hoe": "Tungsten Hoe",
+      "item.morestuff.cobalt_ingot": "Cobalt"
     }
   },
   "foldersRoot": {
@@ -400,5 +361,5 @@
     "modElementsPackage": "net.mcreator.morestuff",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100353117
+  "mcreatorVersion": 202100301117
 }

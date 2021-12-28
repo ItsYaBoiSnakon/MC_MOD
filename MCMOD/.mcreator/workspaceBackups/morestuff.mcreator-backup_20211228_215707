@@ -6,25 +6,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-<<<<<<< Updated upstream
-      "registry_name": "tungsten_ore"
-    },
-    {
-      "name": "TungstenIngot",
-      "type": "item",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tungsten_ingot"
-    },
-    {
-      "name": "Pencil",
-      "type": "item",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pencil"
-=======
       "registry_name": "orichalcum_ingot"
     },
     {
@@ -240,34 +221,162 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "necrodermis_armor_boots_recipe"
->>>>>>> Stashed changes
+    },
+    {
+      "name": "OrichalcumPickaxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_pickaxe"
+    },
+    {
+      "name": "OrichalcumAxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_axe"
+    },
+    {
+      "name": "OrichalcumSword",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_sword"
+    },
+    {
+      "name": "OrichalcumShovel",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_shovel"
+    },
+    {
+      "name": "OrichalcumHoe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_hoe"
+    },
+    {
+      "name": "OrichalcumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_pickaxe_recipe"
+    },
+    {
+      "name": "OrichalcumAxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_axe_recipe"
+    },
+    {
+      "name": "OrichalcumSwordRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_sword_recipe"
+    },
+    {
+      "name": "OrichalcumShovelRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_shovel_recipe"
+    },
+    {
+      "name": "OrichalcumHoeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_hoe_recipe"
+    },
+    {
+      "name": "OrichalcumArmor",
+      "type": "armor",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "OrichalcumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_armor_helmet_recipe"
+    },
+    {
+      "name": "OrichalcumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_armor_body_recipe"
+    },
+    {
+      "name": "OrichalcumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_armor_leggings_recipe"
+    },
+    {
+      "name": "OrichalcumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-<<<<<<< Updated upstream
-      "item.morestuff.tungsten_ingot": "Tungsten Ingot",
-      "item.morestuff.pencil": "Pencil",
-      "block.morestuff.tungsten_ore": "Tungsten Ore"
-=======
-      "block.morestuff.orichalcum_block": "Block of Orichalcum",
-      "item.morestuff.orichalcum_ingot": "Orichalcum",
-      "block.morestuff.orichalcum_ore": "Orichalcum Ore",
       "block.morestuff.necrodermis_ore": "Necrodermis Ore",
+      "item.morestuff.orichalcum_ingot": "Orichalcum",
+      "item.morestuff.orichalcum_armor_leggings": "Orichalcum Leggings",
       "item.morestuff.necrodermis_armor_helmet": "Necrodermis Helmet",
       "item.morestuff.necrodermis_axe": "Necrodermis Axe",
       "item.morestuff.necrodermis": "Necrodermis",
-      "block.morestuff.necrodermis_block": "Block of Necrodermis",
       "item.morestuff.necrodermis_armor_chestplate": "Necrodermis Chestplate",
-      "item.morestuff.necrodermis_shovel": "Necrodermis Shovel",
-      "item.morestuff.necrodermis_sword": "Necrodermis Sword",
-      "item.morestuff.necrodermis_armor_leggings": "Necrodermis Leggings",
+      "item.morestuff.orichalcum_shovel": "Orichalcum Shovel",
+      "item.morestuff.orichalcum_armor_chestplate": "Orichalcum Chestplate",
       "item.morestuff.necrodermis_pickaxe": "Necrodermis Pickaxe",
+      "item.morestuff.necrodermis_hoe": "Necrodermis Hoe",
+      "item.morestuff.orichalcum_armor_helmet": "Orichalcum Helmet",
+      "block.morestuff.orichalcum_block": "Block of Orichalcum",
+      "item.morestuff.orichalcum_axe": "Orichalcum Axe",
+      "block.morestuff.orichalcum_ore": "Orichalcum Ore",
+      "block.morestuff.necrodermis_block": "Block of Necrodermis",
+      "item.morestuff.orichalcum_armor_boots": "Orichalcum Boots",
+      "item.morestuff.necrodermis_shovel": "Necrodermis Shovel",
+      "item.morestuff.orichalcum_sword": "Orichalcum Sword",
+      "item.morestuff.necrodermis_sword": "Necrodermis Sword",
+      "item.morestuff.orichalcum_hoe": "Orichalcum Hoe",
+      "item.morestuff.necrodermis_armor_leggings": "Necrodermis Leggings",
       "item.morestuff.necrodermis_armor_boots": "Necrodermis Boots",
-      "item.morestuff.necrodermis_hoe": "Necrodermis Hoe"
->>>>>>> Stashed changes
+      "item.morestuff.orichalcum_pickaxe": "Orichalcum Pickaxe"
     }
   },
   "foldersRoot": {
