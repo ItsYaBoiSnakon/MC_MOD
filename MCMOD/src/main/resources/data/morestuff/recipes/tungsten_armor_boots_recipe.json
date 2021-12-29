@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "morestuff:tungsten_ingot"
+    },
+    "2": {
+      "item": "morestuff:tungsten_ingot"
+    },
+    "3": {
+      "item": "morestuff:tungsten_ingot"
+    },
+    "5": {
+      "item": "morestuff:tungsten_ingot"
+    }
+  },
+  "result": {
+    "item": "morestuff:tungsten_armor_boots",
+    "count": 1
+  }
+}

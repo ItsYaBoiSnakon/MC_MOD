@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "morestuff:blocks/titanium",
-    "up": "morestuff:blocks/titanium",
-    "north": "morestuff:blocks/titanium",
-    "east": "morestuff:blocks/titanium",
-    "south": "morestuff:blocks/titanium",
-    "west": "morestuff:blocks/titanium",
-    "particle": "morestuff:blocks/titanium"
+    "all": "morestuff:blocks/titanium_ore",
+    "particle": "morestuff:blocks/titanium_ore"
   }
 }

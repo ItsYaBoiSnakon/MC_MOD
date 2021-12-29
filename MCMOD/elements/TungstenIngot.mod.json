@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "tungsten_ingot",
     "customModelName": "Normal",
-    "name": "Tungsten Ingot",
+    "name": "Tungsten",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"

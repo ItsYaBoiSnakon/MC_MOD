@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morestuff:tungsten_block"
+    }
+  ],
+  "result": {
+    "item": "morestuff:tungsten_ingot",
+    "count": 9
+  }
+}
