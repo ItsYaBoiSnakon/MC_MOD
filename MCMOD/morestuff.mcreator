@@ -354,8 +354,6 @@
       "path": "~/Blueprints"
     },
     {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
       "name": "WoodenGlaiveEntitySwingsItem",
       "type": "procedure",
       "sortid": 31,
@@ -374,11 +372,9 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "wooden_glaive",
-      "path": "~/MeleeWeapons",
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+      "path": "~/MeleeWeapons"
+    },
+    {
       "name": "BlueprintCrafting",
       "type": "block",
       "sortid": 31,
@@ -404,6 +400,38 @@
       "locked_code": false,
       "registry_name": "necrodermis_block_recipe",
       "path": "~/Necrodermis"
+    },
+    {
+      "name": "HermesBootsTickEvent",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hermes_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SpecialArmor"
+    },
+    {
+      "name": "Hermes",
+      "type": "armor",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hermes",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      },
+      "path": "~/SpecialArmor"
     }
   ],
   "variable_elements": [],
@@ -419,14 +447,18 @@
       "item.morestuff.necrodermis_axe": "Necrodermis Axe",
       "item.morestuff.necrodermis_armor_chestplate": "Necrodermis Armor Body",
       "item.morestuff.titanium": "Titanium",
+      "item.morestuff.hermes_helmet": "Hermes Helmet",
       "item.morestuff.necrodermis_pickaxe": "Necrodermis Pickaxe",
       "item.morestuff.necrodermis_hoe": "Necrodermis Hoe",
+      "item.morestuff.hermes_leggings": "Hermes Leggings",
       "item.morestuff.wooden_glaive": "Wooden Glaive",
       "block.morestuff.tungsten_ore": "Tungsten Ore",
       "item.morestuff.orichalcum": "Orichalcum",
       "block.morestuff.blueprint_table": "Blueprint Table",
       "block.morestuff.necrodermis_block": "Necrodermis Block",
+      "item.morestuff.hermes_boots": "Hermes Boots",
       "item.morestuff.necrodermis_shovel": "Necrodermis Shovel",
+      "item.morestuff.hermes_chestplate": "Hermes Body",
       "item.morestuff.necrodermis_sword": "Necrodermis Sword",
       "item.morestuff.necrodermis_dagger": "Necrodermis Dagger",
       "item.morestuff.tungsten_bar": "Tungsten Bar",
@@ -468,13 +500,10 @@
         "children": []
       },
       {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
         "name": "MeleeWeapons",
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+        "children": []
+      },
+      {
         "name": "BlueprintsCrafting",
         "children": []
       },
