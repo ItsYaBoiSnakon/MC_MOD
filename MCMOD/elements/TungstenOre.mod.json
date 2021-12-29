@@ -4,6 +4,7 @@
   "definition": {
     "texture": "tungsten_ore_texture",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -11,6 +12,8 @@
     "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     "textureTop": "tungsten_ore_texture",
