@@ -354,6 +354,7 @@
       "path": "~/Blueprints"
     },
     {
+<<<<<<< Updated upstream
       "name": "WoodenGlaiveEntitySwingsItem",
       "type": "procedure",
       "sortid": 31,
@@ -373,6 +374,8 @@
       "locked_code": true,
       "registry_name": "wooden_glaive",
       "path": "~/MeleeWeapons",
+=======
+>>>>>>> Stashed changes
       "name": "BlueprintCrafting",
       "type": "block",
       "sortid": 31,
@@ -462,7 +465,10 @@
         "children": []
       },
       {
+<<<<<<< Updated upstream
         "name": "MeleeWeapons",
+=======
+>>>>>>> Stashed changes
         "name": "BlueprintsCrafting",
         "children": []
       }

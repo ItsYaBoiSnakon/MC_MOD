@@ -3,6 +3,7 @@
   "_type": "block",
   "definition": {
     "texture": "tungsten_ore_texture",
+<<<<<<< Updated upstream
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -10,6 +11,8 @@
     "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
+=======
+>>>>>>> Stashed changes
     "textureTop": "tungsten_ore_texture",
     "textureLeft": "tungsten_ore_texture",
     "textureFront": "tungsten_ore_texture",

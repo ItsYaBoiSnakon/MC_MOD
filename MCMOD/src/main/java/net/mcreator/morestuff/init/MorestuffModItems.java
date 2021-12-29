@@ -55,7 +55,10 @@ public class MorestuffModItems {
 	public static final Item PENCIL = register(new PencilItem());
 	public static final Item BLUEPRINT = register(new BlueprintItem());
 	public static final Item BLUEPRINT_TABLE = register(MorestuffModBlocks.BLUEPRINT_TABLE, CreativeModeTab.TAB_DECORATIONS);
+<<<<<<< Updated upstream
 	public static final Item WOODEN_GLAIVE = register(new WoodenGlaiveItem());
+=======
+>>>>>>> Stashed changes
 	public static final Item BLUEPRINT_CRAFTING = register(MorestuffModBlocks.BLUEPRINT_CRAFTING, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item NECRODERMIS_BLOCK = register(MorestuffModBlocks.NECRODERMIS_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 

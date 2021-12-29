@@ -33,4 +33,8 @@ MCMOD/.mcreator/workspaceBackups/morestuff.mcreator-backup_20211228_225028
 MCMOD/.mcreator/workspaceBackups/morestuff.mcreator-backup_20211228_211500
 MCMOD/.gradle/7.2/executionHistory/executionHistory.bin
 MCMOD/.gradle/7.2/executionHistory/executionHistory.lock
+<<<<<<< Updated upstream
 MCMOD/build/classes/java/main/net/mcreator/morestuff/block/TitaniumOreBlock.class
+=======
+MCMOD/build/classes/java/main/net/mcreator/morestuff/block/TitaniumOreBlock.class
+>>>>>>> Stashed changes
