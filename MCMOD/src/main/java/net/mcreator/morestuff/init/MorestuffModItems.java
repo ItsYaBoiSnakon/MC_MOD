@@ -27,6 +27,7 @@ import net.mcreator.morestuff.item.TitaniumIngotItem;
 import net.mcreator.morestuff.item.TitaniumHoeItem;
 import net.mcreator.morestuff.item.TitaniumAxeItem;
 import net.mcreator.morestuff.item.TitaniumArmorItem;
+import net.mcreator.morestuff.item.ShortbowItem;
 import net.mcreator.morestuff.item.PencilItem;
 import net.mcreator.morestuff.item.CobaltSwordItem;
 import net.mcreator.morestuff.item.CobaltShovelItem;
@@ -79,6 +80,7 @@ public class MorestuffModItems {
 	public static final Item TITANIUM_ARMOR_CHESTPLATE = register(new TitaniumArmorItem.Chestplate());
 	public static final Item TITANIUM_ARMOR_LEGGINGS = register(new TitaniumArmorItem.Leggings());
 	public static final Item TITANIUM_ARMOR_BOOTS = register(new TitaniumArmorItem.Boots());
+	public static final Item SHORTBOW = register(new ShortbowItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
