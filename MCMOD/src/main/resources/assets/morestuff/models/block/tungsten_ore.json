@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "morestuff:blocks/tungsten_ore",
-    "particle": "morestuff:blocks/tungsten_ore"
+    "all": "morestuff:blocks/tungsten_ore_texture",
+    "particle": "morestuff:blocks/tungsten_ore_texture"
   }
 }

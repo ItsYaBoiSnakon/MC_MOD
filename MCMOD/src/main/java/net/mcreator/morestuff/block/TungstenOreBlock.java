@@ -13,8 +13,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.morestuff.init.MorestuffModItems;
-
 import java.util.List;
 import java.util.Collections;
 
@@ -41,6 +39,6 @@ public class TungstenOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(MorestuffModItems.TUNGSTEN_INGOT));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

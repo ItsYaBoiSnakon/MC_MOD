@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morestuff:titanium_block"
+    }
+  ],
+  "result": {
+    "item": "morestuff:titanium_ingot",
+    "count": 9
+  }
+}

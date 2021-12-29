@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "morestuff:tungsten_ingot"
+    },
+    "2": {
+      "item": "morestuff:tungsten_ingot"
+    },
+    "3": {
+      "item": "morestuff:tungsten_ingot"
+    },
+    "4": {
+      "item": "morestuff:tungsten_ingot"
+    },
+    "5": {
+      "item": "morestuff:tungsten_ingot"
+    },
+    "6": {
+      "item": "morestuff:tungsten_ingot"
+    },
+    "7": {
+      "item": "morestuff:tungsten_ingot"
+    },
+    "8": {
+      "item": "morestuff:tungsten_ingot"
+    }
+  },
+  "result": {
+    "item": "morestuff:tungsten_armor_chestplate",
+    "count": 1
+  }
+}

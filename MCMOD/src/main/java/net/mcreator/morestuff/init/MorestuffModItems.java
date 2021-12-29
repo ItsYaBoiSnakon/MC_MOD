@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.morestuff.item.WoodenGlaiveItem;
 import net.mcreator.morestuff.item.TungstenBarItem;
 import net.mcreator.morestuff.item.TitaniumItem;
 import net.mcreator.morestuff.item.PencilItem;
@@ -54,6 +55,7 @@ public class MorestuffModItems {
 	public static final Item PENCIL = register(new PencilItem());
 	public static final Item BLUEPRINT = register(new BlueprintItem());
 	public static final Item BLUEPRINT_TABLE = register(MorestuffModBlocks.BLUEPRINT_TABLE, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item WOODEN_GLAIVE = register(new WoodenGlaiveItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

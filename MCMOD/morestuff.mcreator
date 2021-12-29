@@ -353,6 +353,27 @@
         ]
       },
       "path": "~/Blueprints"
+    },
+    {
+      "name": "WoodenGlaiveEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wooden_glaive_entity_swings_item",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/MeleeWeapons"
+    },
+    {
+      "name": "WoodenGlaive",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wooden_glaive",
+      "path": "~/MeleeWeapons"
     }
   ],
   "variable_elements": [],
@@ -379,6 +400,7 @@
       "item.morestuff.necrodermis_armor_boots": "Necrodermis Armor Boots",
       "item.morestuff.necrodermis_hoe": "Necrodermis Hoe",
       "block.morestuff.titaniumore": "Titaniumore",
+      "item.morestuff.wooden_glaive": "Wooden Glaive",
       "block.morestuff.tungsten_ore": "Tungsten Ore"
     }
   },
@@ -411,6 +433,10 @@
       },
       {
         "name": "Bows",
+        "children": []
+      },
+      {
+        "name": "MeleeWeapons",
         "children": []
       }
     ]
