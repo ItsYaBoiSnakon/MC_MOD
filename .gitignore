@@ -2,6 +2,6 @@ MCMOD/.mcreator/workspaceBackups/
 MCMOD/run/
 MCMOD/mcreator.gradle
 MCMOD/morestuff.mcreator
-MDMOD/.mcreator/workspaceBackups
+MCMOD/build/
 *.bin
 *.lock
