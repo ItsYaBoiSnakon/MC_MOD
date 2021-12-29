@@ -21,7 +21,7 @@ public abstract class NecrodermisArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 45;
 			}
 
 			@Override
@@ -56,7 +56,7 @@ public abstract class NecrodermisArmorItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.15f;
 			}
 		}, slot, properties);
 	}

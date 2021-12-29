@@ -1,7 +1,19 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "all": "morestuff:blocks/tungsten_ore_texture",
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    "down": "morestuff:blocks/tungsten_ore_texture",
+    "up": "morestuff:blocks/tungsten_ore_texture",
+    "north": "morestuff:blocks/tungsten_ore_texture",
+    "east": "morestuff:blocks/tungsten_ore_texture",
+    "south": "morestuff:blocks/tungsten_ore_texture",
+    "west": "morestuff:blocks/tungsten_ore_texture",
     "particle": "morestuff:blocks/tungsten_ore_texture"
   }
 }

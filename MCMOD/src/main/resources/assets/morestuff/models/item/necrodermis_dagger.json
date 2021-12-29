@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "morestuff:items/pencil"
+    "layer0": "morestuff:items/necrodermisdagger"
   },
   "display": {
     "thirdperson_righthand": {

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "morestuff:blocks/blueprinttablefrontandback",
+    "particle": "morestuff:blocks/blueprinttablefrontandback"
+  }
+}

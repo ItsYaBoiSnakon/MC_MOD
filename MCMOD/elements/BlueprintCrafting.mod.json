@@ -3,13 +3,13 @@
   "_type": "block",
   "definition": {
     "texture": "blueprinttablefrontandback",
-    "textureTop": "blueprinttabletop",
-    "textureLeft": "blueprinttableleft",
-    "textureFront": "blueprinttableright",
-    "textureRight": "blueprinttableleft",
-    "textureBack": "blueprinttableright",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Blueprint Table",
+    "name": "Blueprint Crafting",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -105,18 +105,14 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": false,
-    "guiBoundTo": "BlueprintsGUI",
-    "openGUIOnRightClick": true,
-    "inventorySize": 3,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [
-      0,
-      1,
-      2
-    ],
+    "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
