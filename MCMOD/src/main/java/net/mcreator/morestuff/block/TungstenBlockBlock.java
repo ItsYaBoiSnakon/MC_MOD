@@ -13,15 +13,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.morestuff.init.MorestuffModItems;
-
 import java.util.List;
 import java.util.Collections;
 
-public class TungstenOreBlock extends Block {
-	public TungstenOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f, 5f).requiresCorrectToolForDrops());
-		setRegistryName("tungsten_ore");
+public class TungstenBlockBlock extends Block {
+	public TungstenBlockBlock() {
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
+		setRegistryName("tungsten_block");
 	}
 
 	@Override
@@ -41,6 +39,6 @@ public class TungstenOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(MorestuffModItems.TUNGSTEN_INGOT));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

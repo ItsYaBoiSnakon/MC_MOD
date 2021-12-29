@@ -3,7 +3,7 @@
     {
       "name": "TungstenOre",
       "type": "block",
-      "sortid": 27,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_ore"
@@ -11,7 +11,7 @@
     {
       "name": "TungstenIngot",
       "type": "item",
-      "sortid": 26,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_ingot"
@@ -35,7 +35,7 @@
     {
       "name": "TungstenSword",
       "type": "tool",
-      "sortid": 34,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_sword"
@@ -43,7 +43,7 @@
     {
       "name": "TungstenShovel",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_shovel"
@@ -51,7 +51,7 @@
     {
       "name": "TungstenHoe",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_hoe"
@@ -59,7 +59,7 @@
     {
       "name": "TungstenPickaxeRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_pickaxe_recipe"
@@ -67,7 +67,7 @@
     {
       "name": "TungstenAxeRecipe",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_axe_recipe"
@@ -75,7 +75,7 @@
     {
       "name": "TungstenSwordRecipe",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_sword_recipe"
@@ -83,7 +83,7 @@
     {
       "name": "TungstenShovelRecipe",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_shovel_recipe"
@@ -91,7 +91,7 @@
     {
       "name": "TungstenHoeRecipe",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_hoe_recipe"
@@ -99,7 +99,7 @@
     {
       "name": "TungstenArmor",
       "type": "armor",
-      "sortid": 42,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_armor"
@@ -107,7 +107,7 @@
     {
       "name": "TungstenArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_armor_helmet_recipe"
@@ -115,7 +115,7 @@
     {
       "name": "TungstenArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_armor_body_recipe"
@@ -123,7 +123,7 @@
     {
       "name": "TungstenArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_armor_leggings_recipe"
@@ -131,7 +131,7 @@
     {
       "name": "TungstenArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_armor_boots_recipe"
@@ -309,6 +309,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_armor_boots_recipe"
+    },
+    {
+      "name": "TungstenBlock",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block"
+    },
+    {
+      "name": "TungstenOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_block_recipe"
+    },
+    {
+      "name": "TungstenBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block_ore_recipe"
+    },
+    {
+      "name": "TungstenOreSmelting",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_smelting"
+    },
+    {
+      "name": "TungstenPickaxe",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_pickaxe"
+    },
+    {
+      "name": "TungstenAxe",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_axe"
     }
   ],
   "variable_elements": [],
@@ -318,25 +366,28 @@
       "item.morestuff.cobalt_axe": "Cobalt Axe",
       "item.morestuff.tungsten_armor_helmet": "Tungsten Helmet",
       "item.morestuff.pencil": "Pencil",
+      "item.morestuff.cobalt_armor_chestplate": "Cobalt Chestplate",
+      "item.morestuff.tungsten_axe": "Tungsten Axe",
+      "item.morestuff.cobalt_armor_helmet": "Cobalt Helmet",
+      "item.morestuff.tungsten_armor_boots": "Tungsten Boots",
+      "item.morestuff.cobalt_armor_boots": "Cobalt Boots",
+      "item.morestuff.tungsten_armor_leggings": "Tungsten Leggings",
+      "block.morestuff.tungsten_ore": "Tungsten Ore",
+      "item.morestuff.tungsten_hoe": "Tungsten Hoe",
+      "item.morestuff.tungsten_pickaxe": "Tungsten Pickaxe",
       "item.morestuff.tungsten_armor_chestplate": "Tungsten Chestplate",
       "block.morestuff.titanium_ore": "Titanium Ore",
-      "item.morestuff.cobalt_armor_chestplate": "Cobalt Chestplate",
       "item.morestuff.cobalt_pickaxe": "Cobalt Pickaxe",
       "item.morestuff.cobalt_sword": "Cobalt Sword",
       "block.morestuff.cobalt_ore": "Cobalt Ore",
-      "item.morestuff.cobalt_armor_helmet": "Cobalt Helmet",
       "item.morestuff.cobalt_hoe": "Cobalt Hoe",
       "item.morestuff.tungsten_ingot": "Tungsten",
       "item.morestuff.cobalt_armor_leggings": "Cobalt Leggings",
       "item.morestuff.tungsten_shovel": "Tungsten Shovel",
       "item.morestuff.tungsten_sword": "Tungsten Sword",
-      "item.morestuff.tungsten_armor_boots": "Tungsten Boots",
-      "item.morestuff.cobalt_armor_boots": "Cobalt Boots",
-      "item.morestuff.tungsten_armor_leggings": "Tungsten Leggings",
       "item.morestuff.cobalt_shovel": "Cobalt Shovel",
       "block.morestuff.cobalt_block": "Block of Cobalt",
-      "block.morestuff.tungsten_ore": "Tungsten Ore",
-      "item.morestuff.tungsten_hoe": "Tungsten Hoe",
+      "block.morestuff.tungsten_block": "Block of Tungsten",
       "item.morestuff.cobalt_ingot": "Cobalt"
     }
   },
