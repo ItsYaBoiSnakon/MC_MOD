@@ -1,13 +1,16 @@
 {
   "block.morestuff.necrodermis_ore": "Necrodermis Ore",
-<<<<<<< HEAD
+  "item.morestuff.blueprint": "Blueprint",
   "item.morestuff.necrodermis_armor_helmet": "Necrodermis Armor Helmet",
+  "item.morestuff.pencil": "Pencil",
   "item.morestuff.necrodermis": "Necrodermis",
   "item.morestuff.necrodermis_axe": "Necrodermis Axe",
   "item.morestuff.orichalcum": "Orichalcum",
   "item.morestuff.necrodermis_armor_chestplate": "Necrodermis Armor Body",
+  "block.morestuff.blueprint_table": "Blueprint Table",
   "item.morestuff.necrodermis_shovel": "Necrodermis Shovel",
   "item.morestuff.necrodermis_sword": "Necrodermis Sword",
+  "item.morestuff.necrodermis_dagger": "Necrodermis Dagger",
   "item.morestuff.tungsten_bar": "Tungsten Bar",
   "block.morestuff.orichalcumore": "Orichalcumore",
   "item.morestuff.titanium": "Titanium",
@@ -17,29 +20,4 @@
   "item.morestuff.necrodermis_hoe": "Necrodermis Hoe",
   "block.morestuff.titaniumore": "Titaniumore",
   "block.morestuff.tungsten_ore": "Tungsten Ore"
-=======
-  "item.morestuff.orichalcum_ingot": "Orichalcum",
-  "item.morestuff.orichalcum_armor_leggings": "Orichalcum Leggings",
-  "item.morestuff.necrodermis_armor_helmet": "Necrodermis Helmet",
-  "item.morestuff.necrodermis_axe": "Necrodermis Axe",
-  "item.morestuff.necrodermis": "Necrodermis",
-  "item.morestuff.necrodermis_armor_chestplate": "Necrodermis Chestplate",
-  "item.morestuff.orichalcum_shovel": "Orichalcum Shovel",
-  "item.morestuff.orichalcum_armor_chestplate": "Orichalcum Chestplate",
-  "item.morestuff.necrodermis_pickaxe": "Necrodermis Pickaxe",
-  "item.morestuff.necrodermis_hoe": "Necrodermis Hoe",
-  "item.morestuff.orichalcum_armor_helmet": "Orichalcum Helmet",
-  "block.morestuff.orichalcum_block": "Block of Orichalcum",
-  "item.morestuff.orichalcum_axe": "Orichalcum Axe",
-  "block.morestuff.orichalcum_ore": "Orichalcum Ore",
-  "block.morestuff.necrodermis_block": "Block of Necrodermis",
-  "item.morestuff.orichalcum_armor_boots": "Orichalcum Boots",
-  "item.morestuff.necrodermis_shovel": "Necrodermis Shovel",
-  "item.morestuff.orichalcum_sword": "Orichalcum Sword",
-  "item.morestuff.necrodermis_sword": "Necrodermis Sword",
-  "item.morestuff.orichalcum_hoe": "Orichalcum Hoe",
-  "item.morestuff.necrodermis_armor_leggings": "Necrodermis Leggings",
-  "item.morestuff.necrodermis_armor_boots": "Necrodermis Boots",
-  "item.morestuff.orichalcum_pickaxe": "Orichalcum Pickaxe"
->>>>>>> Drawing
 }

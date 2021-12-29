@@ -1,15 +1,8 @@
 {
   "replace": false,
   "values": [
-<<<<<<< HEAD
     "morestuff:orichalcumore",
     "morestuff:titaniumore",
     "morestuff:necrodermis_ore"
-=======
-    "morestuff:orichalcum_ore",
-    "morestuff:orichalcum_block",
-    "morestuff:necrodermis_ore",
-    "morestuff:necrodermis_block"
->>>>>>> Drawing
   ]
 }

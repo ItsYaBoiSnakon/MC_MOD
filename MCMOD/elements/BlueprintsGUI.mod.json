@@ -1,0 +1,120 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 220,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "BlueprintMade"
+          },
+          "name": "Slot #0",
+          "x": 258,
+          "y": 68
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Pencil"
+          },
+          "color": {
+            "value": -205,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "BlueprintCreation"
+          },
+          "name": "Slot #1",
+          "x": 222,
+          "y": 58
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Blueprint"
+          },
+          "color": {
+            "value": -16737793,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "BlueprintCreation"
+          },
+          "name": "Slot #2",
+          "x": 222,
+          "y": 78
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "PreviousItem"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 116,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "NextItem"
+          },
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 182,
+          "y": 67
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #9",
+          "x": 155,
+          "y": 68
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 10,
+      "oy": 10,
+      "snapOnGrid": false
+    }
+  }
+}

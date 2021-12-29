@@ -10,17 +10,11 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
 
-<<<<<<< HEAD
 import net.mcreator.morestuff.block.TungstenOreBlock;
 import net.mcreator.morestuff.block.TitaniumoreBlock;
 import net.mcreator.morestuff.block.OrichalcumoreBlock;
 import net.mcreator.morestuff.block.NecrodermisOreBlock;
-=======
-import net.mcreator.morestuff.block.OrichalcumOreBlock;
-import net.mcreator.morestuff.block.OrichalcumBlockBlock;
-import net.mcreator.morestuff.block.NecrodermisOreBlock;
-import net.mcreator.morestuff.block.NecrodermisBlockBlock;
->>>>>>> Drawing
+import net.mcreator.morestuff.block.BlueprintTableBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -28,17 +22,11 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MorestuffModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
-<<<<<<< HEAD
 	public static final Block TUNGSTEN_ORE = register(new TungstenOreBlock());
 	public static final Block ORICHALCUMORE = register(new OrichalcumoreBlock());
 	public static final Block TITANIUMORE = register(new TitaniumoreBlock());
 	public static final Block NECRODERMIS_ORE = register(new NecrodermisOreBlock());
-=======
-	public static final Block ORICHALCUM_ORE = register(new OrichalcumOreBlock());
-	public static final Block ORICHALCUM_BLOCK = register(new OrichalcumBlockBlock());
-	public static final Block NECRODERMIS_ORE = register(new NecrodermisOreBlock());
-	public static final Block NECRODERMIS_BLOCK = register(new NecrodermisBlockBlock());
->>>>>>> Drawing
+	public static final Block BLUEPRINT_TABLE = register(new BlueprintTableBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

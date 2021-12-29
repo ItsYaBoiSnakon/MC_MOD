@@ -1,0 +1,40 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "pencil",
+    "customModelName": "Normal",
+    "name": "Necrodermis Dagger",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": "CUSTOM:NecrodermisDagger"
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.snowball.throw"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 10.0,
+    "onRangedItemUsed": {
+      "name": "CooldownDagger"
+    },
+    "bulletPower": 1.5,
+    "bulletDamage": 12.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Pencil"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

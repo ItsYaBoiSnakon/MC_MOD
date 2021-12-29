@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morestuff:cobalt_block"
+    }
+  ],
+  "result": {
+    "item": "morestuff:cobalt_ingot",
+    "count": 9
+  }
+}

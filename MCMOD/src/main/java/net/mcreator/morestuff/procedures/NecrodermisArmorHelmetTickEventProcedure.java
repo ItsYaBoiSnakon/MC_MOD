@@ -5,6 +5,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.TickEvent;
 
+import net.minecraft.world.item.enchantment.Enchantments;
+import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -42,7 +44,24 @@ public class NecrodermisArmorHelmetTickEventProcedure {
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
 						.getItem() == MorestuffModItems.NECRODERMIS_ARMOR_HELMET) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 10, 2, (true), (false)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 10, 1, (false), (false)));
+			if (!(EnchantmentHelper.getItemEnchantmentLevel(Enchantments.MENDING,
+					(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)) != 0
+					&& EnchantmentHelper.getItemEnchantmentLevel(Enchantments.MENDING,
+							(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY)) != 0
+					&& EnchantmentHelper.getItemEnchantmentLevel(Enchantments.MENDING,
+							(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)) != 0
+					&& EnchantmentHelper.getItemEnchantmentLevel(Enchantments.MENDING,
+							(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)) != 0)) {
+				((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY))
+						.enchant(Enchantments.MENDING, 1);
+				((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY))
+						.enchant(Enchantments.MENDING, 1);
+				((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY))
+						.enchant(Enchantments.MENDING, 1);
+				((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY))
+						.enchant(Enchantments.MENDING, 1);
+			}
 		}
 	}
 }

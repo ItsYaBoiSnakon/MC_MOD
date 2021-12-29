@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "morestuff:blocks/cobalt_ore_block",
+    "particle": "morestuff:blocks/cobalt_ore_block"
+  }
+}
