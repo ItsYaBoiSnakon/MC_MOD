@@ -14,7 +14,9 @@ import net.mcreator.morestuff.block.TungstenOreBlock;
 import net.mcreator.morestuff.block.TitaniumoreBlock;
 import net.mcreator.morestuff.block.OrichalcumoreBlock;
 import net.mcreator.morestuff.block.NecrodermisOreBlock;
+import net.mcreator.morestuff.block.NecrodermisBlockBlock;
 import net.mcreator.morestuff.block.BlueprintTableBlock;
+import net.mcreator.morestuff.block.BlueprintCraftingBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -27,6 +29,8 @@ public class MorestuffModBlocks {
 	public static final Block TITANIUMORE = register(new TitaniumoreBlock());
 	public static final Block NECRODERMIS_ORE = register(new NecrodermisOreBlock());
 	public static final Block BLUEPRINT_TABLE = register(new BlueprintTableBlock());
+	public static final Block BLUEPRINT_CRAFTING = register(new BlueprintCraftingBlock());
+	public static final Block NECRODERMIS_BLOCK = register(new NecrodermisBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

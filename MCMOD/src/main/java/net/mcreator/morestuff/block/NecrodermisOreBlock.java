@@ -32,7 +32,7 @@ public class NecrodermisOreBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 3;
+			return tieredItem.getTier().getLevel() >= 4;
 		return false;
 	}
 

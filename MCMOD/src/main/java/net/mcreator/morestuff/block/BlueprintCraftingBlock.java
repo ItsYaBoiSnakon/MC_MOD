@@ -14,10 +14,10 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class TungstenOreBlock extends Block {
-	public TungstenOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f));
-		setRegistryName("tungsten_ore");
+public class BlueprintCraftingBlock extends Block {
+	public BlueprintCraftingBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		setRegistryName("blueprint_crafting");
 	}
 
 	@Override

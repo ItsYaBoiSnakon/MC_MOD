@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 4,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -126,16 +126,22 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "soul_sand_valley"
+        "value": "warped_forest"
+      },
+      {
+        "value": "crimson_forest"
       }
     ],
     "blocksToReplace": [
       {
         "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Blocks.NETHER_GOLD_ORE"
       }
     ],
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 4,
+    "frequencyOnChunk": 6,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 126
   }

@@ -1,6 +1,7 @@
 {
   "block.morestuff.necrodermis_ore": "Necrodermis Ore",
   "item.morestuff.blueprint": "Blueprint",
+  "block.morestuff.blueprint_crafting": "Blueprint Crafting",
   "item.morestuff.necrodermis_armor_helmet": "Necrodermis Armor Helmet",
   "item.morestuff.pencil": "Pencil",
   "item.morestuff.necrodermis": "Necrodermis",
@@ -8,6 +9,7 @@
   "item.morestuff.orichalcum": "Orichalcum",
   "item.morestuff.necrodermis_armor_chestplate": "Necrodermis Armor Body",
   "block.morestuff.blueprint_table": "Blueprint Table",
+  "block.morestuff.necrodermis_block": "Necrodermis Block",
   "item.morestuff.necrodermis_shovel": "Necrodermis Shovel",
   "item.morestuff.necrodermis_sword": "Necrodermis Sword",
   "item.morestuff.necrodermis_dagger": "Necrodermis Dagger",

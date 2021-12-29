@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "morestuff:blocks/cobalt_ore_block",
-    "particle": "morestuff:blocks/cobalt_ore_block"
+    "down": "morestuff:blocks/blueprinttablefrontandback",
+    "up": "morestuff:blocks/blueprinttabletop",
+    "north": "morestuff:blocks/blueprinttableright",
+    "east": "morestuff:blocks/blueprinttableleft",
+    "south": "morestuff:blocks/blueprinttableright",
+    "west": "morestuff:blocks/blueprinttableleft",
+    "particle": "morestuff:blocks/blueprinttablefrontandback"
   }
 }

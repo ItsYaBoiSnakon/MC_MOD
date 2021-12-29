@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "pencil",
+    "texture": "necrodermisdagger",
     "customModelName": "Normal",
     "name": "Necrodermis Dagger",
     "specialInfo": [],
