@@ -1,9 +1,11 @@
 {
   "replace": false,
   "values": [
-    "morestuff:orichalcum_ore",
-    "morestuff:orichalcum_block",
-    "morestuff:necrodermis_ore",
-    "morestuff:necrodermis_block"
+    "morestuff:cobalt_ore",
+    "morestuff:cobalt_block",
+    "morestuff:tungsten_ore",
+    "morestuff:tungsten_block",
+    "morestuff:titanium_ore",
+    "morestuff:titanium_block"
   ]
 }

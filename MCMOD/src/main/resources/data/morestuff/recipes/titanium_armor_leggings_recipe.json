@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "morestuff:titanium_ingot"
+    },
+    "1": {
+      "item": "morestuff:titanium_ingot"
+    },
+    "2": {
+      "item": "morestuff:titanium_ingot"
+    },
+    "3": {
+      "item": "morestuff:titanium_ingot"
+    },
+    "5": {
+      "item": "morestuff:titanium_ingot"
+    },
+    "6": {
+      "item": "morestuff:titanium_ingot"
+    },
+    "8": {
+      "item": "morestuff:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "morestuff:titanium_armor_leggings",
+    "count": 1
+  }
+}

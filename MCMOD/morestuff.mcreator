@@ -27,7 +27,7 @@
     {
       "name": "TitaniumOre",
       "type": "block",
-      "sortid": 4,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "titanium_ore"
@@ -357,6 +357,172 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_axe"
+    },
+    {
+      "name": "TitaniumIngot",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ingot"
+    },
+    {
+      "name": "TitaniumBlock",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_block"
+    },
+    {
+      "name": "TitaniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ore_block_recipe"
+    },
+    {
+      "name": "TitaniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_block_ore_recipe"
+    },
+    {
+      "name": "TitaniumOreSmelting",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ore_smelting"
+    },
+    {
+      "name": "TitaniumPickaxe",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_pickaxe"
+    },
+    {
+      "name": "TitaniumAxe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_axe"
+    },
+    {
+      "name": "TitaniumSword",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_sword"
+    },
+    {
+      "name": "TitaniumShovel",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_shovel"
+    },
+    {
+      "name": "TitaniumHoe",
+      "type": "tool",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_hoe"
+    },
+    {
+      "name": "TitaniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_pickaxe_recipe"
+    },
+    {
+      "name": "TitaniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_axe_recipe"
+    },
+    {
+      "name": "TitaniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_sword_recipe"
+    },
+    {
+      "name": "TitaniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_shovel_recipe"
+    },
+    {
+      "name": "TitaniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_hoe_recipe"
+    },
+    {
+      "name": "TitaniumArmor",
+      "type": "armor",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "TitaniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_armor_helmet_recipe"
+    },
+    {
+      "name": "TitaniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_armor_body_recipe"
+    },
+    {
+      "name": "TitaniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_armor_leggings_recipe"
+    },
+    {
+      "name": "TitaniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -364,21 +530,32 @@
   "language_map": {
     "en_us": {
       "item.morestuff.cobalt_axe": "Cobalt Axe",
+      "block.morestuff.titanium_block": "Block of Titanium",
       "item.morestuff.tungsten_armor_helmet": "Tungsten Helmet",
       "item.morestuff.pencil": "Pencil",
       "item.morestuff.cobalt_armor_chestplate": "Cobalt Chestplate",
       "item.morestuff.tungsten_axe": "Tungsten Axe",
+      "item.morestuff.titanium_armor_boots": "Titanium Boots",
+      "item.morestuff.titanium_hoe": "Titanium Hoe",
       "item.morestuff.cobalt_armor_helmet": "Cobalt Helmet",
+      "item.morestuff.titanium_pickaxe": "Titanium Pickaxe",
+      "item.morestuff.titanium_sword": "Titanium Sword",
       "item.morestuff.tungsten_armor_boots": "Tungsten Boots",
       "item.morestuff.cobalt_armor_boots": "Cobalt Boots",
       "item.morestuff.tungsten_armor_leggings": "Tungsten Leggings",
+      "item.morestuff.titanium_armor_helmet": "Titanium Helmet",
       "block.morestuff.tungsten_ore": "Tungsten Ore",
       "item.morestuff.tungsten_hoe": "Tungsten Hoe",
+      "item.morestuff.titanium_ingot": "Titanium",
       "item.morestuff.tungsten_pickaxe": "Tungsten Pickaxe",
+      "item.morestuff.titanium_axe": "Titanium Axe",
       "item.morestuff.tungsten_armor_chestplate": "Tungsten Chestplate",
       "block.morestuff.titanium_ore": "Titanium Ore",
       "item.morestuff.cobalt_pickaxe": "Cobalt Pickaxe",
+      "item.morestuff.titanium_shovel": "Titanium Shovel",
       "item.morestuff.cobalt_sword": "Cobalt Sword",
+      "item.morestuff.titanium_armor_chestplate": "Titanium Chestplate",
+      "item.morestuff.titanium_armor_leggings": "Titanium Leggings",
       "block.morestuff.cobalt_ore": "Cobalt Ore",
       "item.morestuff.cobalt_hoe": "Cobalt Hoe",
       "item.morestuff.tungsten_ingot": "Tungsten",

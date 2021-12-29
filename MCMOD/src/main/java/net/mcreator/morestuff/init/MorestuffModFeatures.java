@@ -16,8 +16,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
-import net.mcreator.morestuff.world.features.ores.OrichalcumOreFeature;
-import net.mcreator.morestuff.world.features.ores.NecrodermisOreFeature;
+import net.mcreator.morestuff.world.features.ores.TungstenOreFeature;
+import net.mcreator.morestuff.world.features.ores.TitaniumOreFeature;
+import net.mcreator.morestuff.world.features.ores.CobaltOreFeature;
 
 import java.util.Set;
 import java.util.Map;
@@ -27,10 +28,12 @@ import java.util.HashMap;
 public class MorestuffModFeatures {
 	private static final Map<Feature<?>, FeatureRegistration> REGISTRY = new HashMap<>();
 	static {
-		REGISTRY.put(OrichalcumOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
-				OrichalcumOreFeature.GENERATE_BIOMES, OrichalcumOreFeature.CONFIGURED_FEATURE));
-		REGISTRY.put(NecrodermisOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
-				NecrodermisOreFeature.GENERATE_BIOMES, NecrodermisOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(CobaltOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, CobaltOreFeature.GENERATE_BIOMES,
+				CobaltOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(TungstenOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				TungstenOreFeature.GENERATE_BIOMES, TungstenOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(TitaniumOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				TitaniumOreFeature.GENERATE_BIOMES, TitaniumOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent
